@@ -1,0 +1,288 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Katya's CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    body {
+        font-family: PT Sans;
+        background-color: rgb(37, 255, 200);
+    }    
+    .container {
+        margin: auto;
+        display:flex;
+        width: 900px;
+        height: 810px;
+        overflow: hidden;
+    }
+    .left, .right {
+        display: table-cell;
+    }
+    .left {
+        width: 300px;
+        background: #e9e8e8;
+       
+    }
+    .right {
+        width: 600px;
+        background: rgb(255, 255, 255);
+       
+    }
+
+    .hr {
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 2px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        border: none;  
+    }
+    img {
+        width: 220px; 
+        border-radius: 50%;
+        margin-top: 40px;
+        margin-bottom: 30px; 
+       
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 50px; 
+        color: rgb(37, 255, 200);
+        margin-bottom: 0px;
+    }
+    p{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 12px;  
+    }
+    h2 {
+        margin-left: 40px;
+        text-transform:uppercase;
+        font-size: 12px;
+    }
+    .profile{
+        margin-bottom: 20px;
+        margin-top: 94px;
+       
+    }
+    .info{
+        margin-bottom: 20px;
+    }
+    .header {
+        margin-top: 45px;
+    }
+    h3 {
+        margin-left: 40px;
+        margin-top: 15px;
+        color: gray;
+    }
+    .navmenu {
+        overflow: hidden;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .navmenu a{
+        float: left;
+        color:rgb(170, 170, 170);
+        text-align:left;
+        text-decoration: none;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    .navmenu a:hover{
+        color: rgb(37, 255, 200);
+    }
+    .list {
+        margin-left: 16px;
+    }
+    .list li{
+        list-style-type: square;
+        color: rgb(37, 255, 200);
+    }
+    .list a{
+        margin-left: 20px;
+        color: gray;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .list a:hover{
+        color: rgb(37, 255, 200);
+    }
+    .list-two {
+        margin-left: 16px;
+    }
+    .list-two li{
+        list-style-type: square;
+        color: rgb(37, 255, 200);
+    }
+    .list-two span{
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+        margin-left: 20px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="image">
+            <img src="https://lh3.googleusercontent.com/dsk0KNTZfjzPD3suoOxVcZAviMNEAHuKdo3K0ywtWuBs3WrBj-TWRiTaz6wXXf5p3KcuWgVyPbILodFtjzg14mNaBJMIF3zvzbec1geY2m_Y1n_njjMogPRQ9Mhe1VDocEGbnCxWYAGlgClEWRlQubwyrDjksFGZxKUJOKnUydcjwA_lF_5k8zrNE7u-bliPGl1v-LZ93rFmjHZ-12rl8pQ7E1YhjTRuy2S1kNE8HzSGOPHSfRcrcWS1cgE0rOox0XZ_CqGhPZEP0CVNk2rkoZvXIE8KtZmntaxkpoebJAArdCQP9I-_JaXF3Mc8yVCKnCvak7xOj_1k2TF3gThxWywImLNyMNHFgRq_5dQVei7gNGq5Sf-IyPA6Tcvehx3_44h0oa5iwOavlhbzLRiOO2rwQexY0tjgEH5I58ezxIp1Hlk4hdcUUhiWRMeZjjXm5H7ugDjYbrrrbl0E00hmqYPH4GPczmxaDnPKJgKfp30Nl74UZK1pyfGf8sfdmLzLgIzFxJySo9gZRWFHnlRLR91VFhT0RMgd8qFNSyXenD6ETNs2MchDzEH9y-boxJ9qrIskwZCUMmXC7EH88weDrWP5zqG2ToxR802BJmcFNMOTguQR9w2W4LJV48z0V6ZIcNnuKNZbqjNolPCgHA=s800-no" alt="Katya photo">
+            </div>
+            <div class="info">
+                <h2 id="info">
+                        Info
+                </h2>
+                <hr class="hr"> 
+                </hr> 
+                <p>
+                    Address: Amsterdam<br>
+                    Phone number: +12 3 4567890<br>
+                    Date of birth: 8.03.1988<br>
+                    Nationality: Russian <br>
+                </p>                          
+            </div> 
+            <div class="info">
+                <h2 id="education">
+                    Education
+                </h2>
+                <hr class="hr"> 
+                </hr> 
+                <p>
+                    Yaroslavl State Pedagogical University<br> 
+                    History of Arts (2005 – 2010) 
+                </p>                              
+            </div>
+            <div class="info">
+                <h2 id="strategies">
+                    Learning strategies
+                </h2>
+                <hr class="hr"> 
+                </hr> 
+                <ul class="list-two">
+                    <li>
+                        <span>
+                            Spaced practice
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            Interleaving
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            Concrete examples
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            Dual coding
+                        </span>
+                    </li>
+                </ul>                           
+            </div>
+            <div class="info">
+                    <h2 id="resources">
+                        Resources
+                    </h2>
+                    <hr class="hr"> 
+                    </hr> 
+                    <ul class="list">
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                                developer.mozilla.org
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://css-tricks.com/almanac/">
+                                CSS Almanac
+                            </a>    
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=UB1O30fR-EE&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU">
+                                HTML Crash Course
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=qKoajPPWpmo&index=1&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C">
+                                CSS Tutorials
+                            </a>
+                        </li>
+                    </ul>                           
+                </div>                                  
+        </div>
+        <div class="right">
+            <div class="navmenu">
+                <a href="#info">Info</a>
+                <a href="#profile">Profile</a>
+                <a href="#education">Education</a>
+                <a href="#work">Work</a>
+                <a href="#strategies">Strategies</a>
+                <a href="#resources">Resources</a>
+            </div>
+            <div class="header">     
+            <h1>
+               Ekaterina Rassadina 
+            </h1>
+            <h3>
+                Visual Designer
+            </h3>
+            </div>
+            <div class="profile">
+            <h2 id="profile">
+                Profile
+            </h2>
+            <hr class="hr"> 
+            </hr> 
+            <p>
+                During my career as a designer in various fields, I gained a strong understanding of web/graphic/identity design and branding analysis. Except the beautiful layouts there is always a deep investigation into customer opinions, competitors analysis and marketing research behind my work. 
+            </p>           
+            </div> 
+            <div class="info">
+                    <h2 id="work">
+                        work experience
+                    </h2>
+                    <hr class="hr"> 
+                    </hr> 
+                    <p>
+                        <strong>Creative/Researcher</strong> <br>
+                        Belly&Brain, Amsterdam                    
+                    </p> 
+                    <p>
+                        <strong>Brand designer</strong> <br>
+                        Belly&Brain, Amsterdam                    
+                    </p> 
+                    <p>
+                        <strong>Web designer</strong> <br>
+                        Legacy, Tyumen                    
+                    </p>
+                    <p>
+                        <strong>DTP Designer</strong> <br>
+                        Overpin, Yaroslavl                   
+                        </p>
+                    <p>
+                        <strong>Graphic designer</strong> <br>
+                        Shop&Go, Yaroslavl                  
+                    </p>
+                    <p>
+                        <strong>Souvenir designer</strong> <br>
+                        Yardecol, Yaroslavl                 
+                    </p>
+                    <p>
+                        <strong>Photographer/Retoucher</strong> <br>
+                        LaModa, Yaroslavl                 
+                    </p>
+
+                    </div>     
+        </div>
+    </div>
+</body>
+</html>
